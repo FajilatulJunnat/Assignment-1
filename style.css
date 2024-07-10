@@ -9,6 +9,12 @@ body{
 .defult{
     color: #0D1321;
 }
+p{
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 25px;
+}
+/* hero part */
 .hero{
     background-image: url(./images/Hero-bg.png);
     background-position: center;
@@ -28,13 +34,14 @@ body{
     padding: 0px 70px;
 }
 .hero-txt p{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-:0 30px;
+
     color: #0D1321;
     
 }
 .hero-txt h1{
     font-weight: 800;
+    font-size: 45px;
 }
 .btn{
     background-color: #0D1321;
@@ -44,8 +51,84 @@ body{
     width: 198px; */
     padding: 20px 23px;
     font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 42px;
 }
 .btn a{
     color: #ffffff;
     text-decoration: none;
+}
+/* why web part */
+.why-web{
+    width: 1083px;
+    height: 1325px;
+    padding: 76px 92px;
+    margin: 70px auto;
+    border-radius: 15px;
+
+    background: rgba(13, 19, 33, 0.02);
+}
+.title-div{
+    padding: 44px 45px;
+    text-align: center;
+}
+.title-div h2{
+    margin-bottom: 23px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+}
+.part-1{
+    padding: 46px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+border-radius: 16px;
+margin-bottom: 31px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.part-txt{
+    width: 453px;
+}
+.part-txt h3{
+    color: rgba(13, 19, 33, 0.7);
+
+font-size: 23px;
+font-weight: 700;
+line-height: 34px;
+
+}
+.btn-1{
+    padding: 12px 19px 12px 19px;
+    border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+font-size: 19px;
+font-weight: 600;
+line-height: 22px;
+text-align: center;
+}
+.btn-1 a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+.part-2{
+    padding: 46px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+border-radius: 16px;
+margin-bottom: 31px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.part-3{
+    padding: 46px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
