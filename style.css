@@ -87,7 +87,7 @@ line-height: 37px;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-border-radius: 16px;
+border-radius: 15px;
 margin-bottom: 31px;
 background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
@@ -121,7 +121,7 @@ text-align: center;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-border-radius: 16px;
+border-radius: 15px;
 margin-bottom: 31px;
 background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
@@ -131,7 +131,7 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-border-radius: 16px;
+border-radius: 15px;
 background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 /* my inspiration */
@@ -142,6 +142,8 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
 }
 .my-txt{
     padding: 0 137px;
+    text-align: center;
+    margin-bottom: 45px;
 }
 .my-txt h2{
     margin: 23px 0px;
@@ -155,5 +157,77 @@ line-height: 35px;
     box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 15px;
+
+}
+.link-div iframe{
+    border-radius: 15px;
+}
+/* target */
+.target{
+    /* height: 600px; */
+    margin-top: 143px;
+}
+.target-txt{
+    padding: 0 137px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+.target-txt h2{
+    margin: 23px 0px;
+    color: rgb(13, 19, 33);
+font-size: 30px;
+font-weight: 800;
+line-height: 35px;
+}
+.parent-card{
+    height: 284px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin-top: 45px;
+
+}
+.card-1{
+    height: 300px;
+    width: 346px;
+    padding: 38px;
+    margin: 0px 23px;
+    border-radius: 15px;
+background: rgba(255, 76, 30, 0.05);
+}
+.card-2{
+    height: 300px;
+    width: 346px;
+    padding: 38px;
+    margin: 0px 23px;
+    border-radius: 15px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-2 p{
+    margin-bottom: 38px;
+}
+.card-3{
+    height: 300px;
+    width: 346px;
+    padding: 38px;
+    margin: 0px 23px;
+    border-radius: 15px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.card-1 a,.card-2 a,.card-3 a{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.card-1 h3,.card-2 h3,.card-3 h3{
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
 
 }
