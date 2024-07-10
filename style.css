@@ -1,0 +1,51 @@
+/* google font */
+
+body{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.defult{
+    color: #0D1321;
+}
+.hero{
+    background-image: url(./images/Hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 619px;
+}
+.hero-div{
+    width: 948px;
+    height: 553px;
+    padding: 25px 0px;
+    margin: 0 210px;
+  
+    text-align: center;
+}
+.hero-txt{
+    margin-top: 30px;
+    padding: 0px 70px;
+}
+.hero-txt p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #0D1321;
+    
+}
+.hero-txt h1{
+    font-weight: 800;
+}
+.btn{
+    background-color: #0D1321;
+    border: none;
+    border-radius: 8px;
+    /* height: 63px;
+    width: 198px; */
+    padding: 20px 23px;
+    font-weight: 600;
+}
+.btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
