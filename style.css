@@ -236,6 +236,8 @@ line-height: 36px;
     height: 298px;
     border-radius: 15px;
 background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./images/handshake.jpg);
+background-position: center;
+background-size: cover;
 padding: 61px 45px 61px 45px;
 color: #ffffff;
 display: flex;
@@ -282,5 +284,14 @@ color: rgb(13, 19, 33);
 font-size: 19px;
 font-weight: 600;
 line-height: 23px;
-
+cursor: pointer;
+}
+footer{
+    padding: 30px 142px;
+    border-radius: 15px;
+background: rgba(13, 19, 33, 0.03);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
 }
