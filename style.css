@@ -58,12 +58,14 @@ p{
     color: #ffffff;
     text-decoration: none;
 }
+main{
+    width: 1083px;
+    margin: 70px auto;
+}
 /* why web part */
 .why-web{
-    width: 1083px;
     height: 1325px;
     padding: 76px 92px;
-    margin: 70px auto;
     border-radius: 15px;
 
     background: rgba(13, 19, 33, 0.02);
@@ -131,4 +133,27 @@ justify-content: space-between;
 align-items: center;
 border-radius: 16px;
 background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+/* my inspiration */
+.my-inspiration{
+    height: 736px;
+    text-align: center;
+    margin-top: 84px;
+}
+.my-txt{
+    padding: 0 137px;
+}
+.my-txt h2{
+    margin: 23px 0px;
+    color: rgb(13, 19, 33);
+font-size: 30px;
+font-weight: 800;
+line-height: 35px;
+}
+.link-div{
+    padding: 30px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 15px;
+
 }
